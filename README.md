@@ -1,7 +1,7 @@
 # Modeling-Air-Pollution
 Data for the paper "Deciphering Environmental Air Pollution with Large Scale City Data"
 
-###1.  **Main Dataset**
+### Main Dataset
 **aqi_city_data_v2_unrolled.csv**
 
 Relevant Columns:
@@ -20,7 +20,7 @@ Relevant Columns:
 `Temperature`,`Pressure`,`Humidity`,`Dew`,`Wind Speed`,`Wind Gust`
 
     
-####2.  Power Plant Generation and Location Dataset:
+### Power Plant Generation and Location Dataset:
 **pp_gen_data.csv**
 
 Relevant Columns:
