@@ -1,4 +1,4 @@
-# Modeling-Air-Pollution
+# Deciphering Environmental Air Pollution
 Data for the paper "Deciphering Environmental Air Pollution with Large Scale City Data"
 
 ### Main Dataset
