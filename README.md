@@ -1,17 +1,23 @@
 # Modeling-Air-Pollution
-Data for the paper "Modeling the Dynamics of Air Pollution: A Bayesian Approach on Large Scale Data"
+Data for the paper "Deciphering Environmental Air Pollution with Large Scale City Data"
 
-1.  Main Dataset: aqi_city_data.csv
+1.  **Main Dataset**: *aqi_city_data_v2_unrolled.csv*
 
     Relevant Columns:
 
     * Date: Date of the sample
     * City: City of the sample
-    * Specie: Type of pollutant
-    * Median: Median value of the pollutant for the day 
+    * Median: Median value of the pollutant/meteorological feature for the day 
     * mil_miles: Total vehicle travel distance for the sample
-    * past_week_avg_miles: Average vehicle travel distance for last 7 days
     * pp_feat: Calculated feature for the influence of neighboring power plants
+    * Population Staying at Home: Used a measure of domestic emissions.
+    
+    Pollutants:
+    `PM2.5`,`PM10`,`NO2`,`O3`,`CO`,`SO2`
+    
+    Meteorological Features:
+    `Temperature`,`Pressure`,`Humidity`,`Dew`,`Wind Speed`,`Wind Gust`
+
     
 2.  Power Plant Generation and Location Dataset: pp_gen_data.csv
 
