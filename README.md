@@ -1,10 +1,14 @@
 
-[comment]:<> (# Deciphering Environmental Air Pollution)
+## Deciphering Environmental Air Pollution (DEAP)
+
+Official repository for the paper "Deciphering Environmental Air Pollution with Large Scale City Data", IJCAI 2022
+
+
 
 [comment]:<> (Data for the paper "Deciphering Environmental Air Pollution with Large Scale City Data")
 
 ### Main Dataset
-**aqi_city_data_v2_unrolled.csv**
+**city_pollution_data.csv**
 
 Relevant Columns:
 
@@ -22,7 +26,7 @@ Relevant Columns:
 `Temperature`,`Pressure`,`Humidity`,`Dew`,`Wind Speed`,`Wind Gust`
 
     
-### Power Plant Generation and Location Dataset:
+### Power Plant Generation and Location Dataset [Extra]:
 **pp_gen_data.csv**
 
 Relevant Columns:
