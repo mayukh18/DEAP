@@ -18,6 +18,10 @@ import sklearn
 from copy import deepcopy
 from loss_utils import *
 from model_utils import *
+import torch.nn as nn
+import math
+
+device = 'cuda'
 
 import warnings
 warnings.filterwarnings('ignore')
