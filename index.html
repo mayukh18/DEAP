@@ -261,6 +261,9 @@
 
             <!--       <center><h2>Project Video</h2></center> -->
             <hr>
+			
+			<div style="width:800px; margin:0 auto; text-align=justify"><center><span style="font-size:22px"><b>Abstract</b></span></center></div>
+			
             <div style="width:800px; margin:0 auto; text-align=justify">
                 Air pollution poses a serious threat to sustainable environmental conditions in the 21st century.
 				Its importance in determining the health and living standards in urban settings is only expected to increase with time.
@@ -285,7 +288,63 @@
                 </tr>
             </table>
             <br />
+			
+			<hr>
+			<hr>
+			
+			<div style="width:800px; margin:0 auto; text-align=justify"><center><span style="font-size:22px"><b>Results</b></span></center></div>
+			
+            <div style="width:800px; margin:0 auto; text-align=justify">
+                Table below shows the performance of predictions from different models for all 6 pollutants. LSTM E and Attention LSTM E are trained on explicit
+information of weekday and month whereas the explicit information have been excluded while training the remaining models.
+            </div><br />
+            <table align=center width=1000px>
+                <tr>
+                    <td width=1200px>
+                        <center><a href="data/images/fig1.png"><img src="data/images/results.png"
+                                    width="700px"></img></a><br>
+                        </center>
+						<br>
+						<div style="width:800px; margin:0 auto; text-align=justify">
+                In the figures below, it can be observed that our proposed model does a great job in following
+sudden daily fluctuations in the pollutant levels.
+            </div><br />
+						<center><a href="data/images/fig1.png"><img src="data/images/las_vegas_no2_1.png"
+                                    width="330px"></img><img src="data/images/las_vegas_pm25_1.png"
+                                    width="330px"></img></a><br>
+                        </center>
+						<br>
+						<div style="width:800px; margin:0 auto; text-align=justify">
+                In order to explore the sequential nature of pollutants, we designed
+an ablation study with multiple sequence lengths with
+the same experimental setup to maintain parity for modeling.
+The results given in the figure below (left) show that pollutants like PM2.5,
+PM10 and NO<sub>2</sub> have a better performance with longer sequence
+lengths, whereas the others either degrade or show a
+flat trend. Thus it can be assumed that the daily concentration
+of some pollutants indeed have a good dependence on past
+concentrations whereas some others are mostly independent
+of it.
+<br><br>
+The visualizations shown in the figure below (right) provide some information
+about each city’s conformity with the universal model.
+It shows us the cities which have pollutant levels which were
+much higher than that estimated by our model. It provides us
+the leads to explore the context and reason behind each such
+outlier city. An analysis on this basis will provide researchers
+to identify problematic cases in a meaningful way instead of just flagging cities with high pollutant levels.
+            </div><br />
+						<center><a href="data/images/fig1.png"><img src="data/images/rmse_cossqformer_ablation_rRMSE_new.png"
+                                    width="330px" height="220px"></img><img src="data/images/cities_over_polluted.png"
+                                    width="330px"></img></a><br>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+            <br />
+			
             <hr>
+			<hr>
 
 
 
@@ -308,7 +367,7 @@
                     <td width=550px align=left>
                         <!-- <p style="margin-top:4px;"></p> -->
                         <!--            Chaplot, D.S., Gandhi, D., Gupta, S., Gupta, A. and Salakhutdinov, R., 2020. Learning To Explore Using Active Neural SLAM. In International Conference on Learning Representations (ICLR).-->
-                        <p style="text-align:left;"><b><span style="font-size:16pt">Citation</span></b><br /><span
+                        <p style="text-align:left;"><center><b><span style="font-size:16pt">Citation</span></b></center><span
                                 style="font-size:6px;">&nbsp;<br /></span> <span style="font-size:12pt"> Deciphering Environmental Air Pollution with Large Scale City Data. In
                                 IJCAI 2022.</span></p>
                         <!-- <p style="margin-top:20px;"></p> -->
