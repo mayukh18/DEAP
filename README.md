@@ -3,7 +3,7 @@
 
 Official repository for the paper "Deciphering Environmental Air Pollution with Large Scale City Data", IJCAI 2022
 
-
+Alternate PyTorch implementation based on [davidsvy's](https://github.com/davidsvy/cosformer-pytorch) cosFormer implementation can be found [here](https://github.com/sayannag/cossquareformer-pytorch).
 
 [comment]:<> (Data for the paper "Deciphering Environmental Air Pollution with Large Scale City Data")
 
